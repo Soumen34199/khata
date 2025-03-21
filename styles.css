@@ -1,0 +1,259 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('rt.jpg');
+  margin: 0;
+  padding: 20px;
+  color: #333;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1, h2 {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.089);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  overflow-x: auto;
+  
+  
+  
+}
+
+.form-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-section label {
+  flex-basis: 100%;
+  margin: 10px 0 5px;
+  color: #ddd;
+}
+
+.form-section input, .form-section button {
+  flex-basis: 48%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #dddddd25;
+  border-radius: 40px;
+  
+
+}
+
+.form-section input:focus {
+  border-color: #007BFF;
+  
+
+}
+
+.formsection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  box-align: center;
+  
+}
+
+.formsection label {
+  flex-basis: 100%;
+  margin: 10px 0 5px;
+}
+
+.formsection input, .form-section button {
+  flex-basis: 48%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #c4b5b500;
+  border-radius: 4px;
+}
+
+.formsection input:focus {
+  border-color: #007BFF;
+}
+.btn-clear {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn-clear:hover {
+  background-color: darkred;
+}
+
+
+.btn-add {
+  flex-basis: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 7px 40px;
+  border: 1px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-align:right;
+  float:right;
+  margin-left: auto;
+}
+
+.btn-add:hover {
+  background-color: #0056b3;
+}
+
+.btn-view {
+  flex-basis: 100%;
+  background-color: #ec5353;
+  color: rgb(49, 49, 49);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-view:hover {
+  background-color: #a31212;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  
+}
+
+th, td {
+  border: 1px solid #dddddd73;
+  padding: 12px;
+  text-align: left;
+  color: #ffffff;
+  font-weight: bold;
+  
+}
+
+th {
+  background-color: #f8f9fa31;
+  color: #ebebeb;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.total-section {
+  text-align: right;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.btn-submit {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: #218838;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #ffffff;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  overflow-x: auto;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  table-layout: auto;
+}
+
+.history-table th, .history-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  color: #555555;
+  
+}
+
+.history-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.timestamp {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 10px;
+}
+/* Style for the Edit button */
+button.edit-button {
+  background-color: #2e6430; /* Green background */
+  color: white;              /* White text */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button.edit-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Style for the Delete button */
+button.delete-button {
+  background-color: #f44336; /* Red background */
+  color: white;              /* White text */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button.delete-button:hover {
+  background-color: #da190b; /* Darker red on hover */
+}
+.delete-history-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.delete-history-btn:hover {
+  background-color: darkred;
+}
+
+
