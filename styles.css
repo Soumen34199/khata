@@ -1,7 +1,7 @@
 /* General Styling */
 body {
   font-family: 'Arial', sans-serif;
-  background: 'rt.jpg';
+  background: url(rt.jpg);
   margin: 0;
   padding: 20px;
   color: #333;
